@@ -1,0 +1,122 @@
+@media only screen and (max-width:992px) {
+    header {
+        font-size: 15px;
+    }
+    .albumsimages img {
+        width:115px;
+        
+    }
+
+    .dropdown button {
+        font-size: 25px;
+    }
+
+    .dropdown-menu {
+        min-width:13.2rem;
+        
+    }
+}
+
+
+@media only screen and (max-width:768px) {
+    header {
+        font-size: 13px;
+        letter-spacing: 0px;
+    }
+
+    header p {
+        margin:0;
+        padding:0 1rem;
+    }
+
+    .albums a,
+    .digital a {
+    
+    
+    font-size: 25px;
+    
+    }
+    .albumsimages img {
+        width:100px;
+        
+    }
+
+    .fa-facebook,
+    .fa-instagram,
+    .fa-youtube
+ {
+     padding:0 1rem;
+    font-size: 70px;
+    
+}
+
+    .dropdown button {
+        font-size: 20px;
+    }
+
+    .dropdown-menu {
+        min-width:11.2rem;
+        
+    }
+
+
+    .digital {
+        margin-bottom: 0;
+    }
+
+
+}
+
+@media only screen and (max-width:575px) {
+    header {
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+
+    header p {
+        margin:0;
+        padding:0 1rem;
+    }
+    .logo img {
+        width:160px;
+        
+        margin-top:-90px;
+    }
+    
+
+}
+
+@media only screen and (max-width:490px) {
+    header {
+        font-size: 11px;
+        letter-spacing: 0px;
+    }
+
+    header p {
+        margin:0;
+        padding:0 0.5rem;
+    }
+    .logo img {
+        width:130px;
+        
+        margin-top:-90px;
+    }
+
+   
+
+    .fa-facebook,
+    .fa-instagram,
+    .fa-youtube
+ {
+     padding:0;
+    font-size: 50px;
+    
+}
+
+.fullwebsite p {
+    
+    font-size: 15px;
+}
+    
+
+}

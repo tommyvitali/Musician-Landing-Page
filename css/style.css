@@ -1,0 +1,265 @@
+/*--------------------------------*/
+/*BASIC SETUP*/
+/*--------------------------------*/
+
+* {
+    margin:0;
+    padding:0;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    
+    
+}
+
+html,
+body {
+    
+    
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.322), rgba(51, 51, 51, 0.322)),
+    url(../img/sfondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #555;
+    font-family: 'Oswald', sans-serif;
+    
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    
+}
+
+
+
+
+/*--------------------------------*/
+/*HEADER*/
+/*--------------------------------*/
+
+header {
+    height:5rem;
+    background-color: white;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2px;
+    z-index: 1;
+    
+    
+    
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+header a:hover {
+    cursor:pointer;
+    text-decoration: none;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+header p {
+    margin:0;
+    padding:0 2rem;
+}
+
+.header-content {
+    height:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.logo {
+    width:50%;
+    margin:0 auto;
+    text-align: center;
+    z-index: 1111;
+}
+
+.logo img {
+    width:250px;
+    height:auto;
+    z-index:1111;
+    margin-top:-125px;
+}
+
+/*--------------------------------*/
+/*BUY CDS*/
+/*--------------------------------*/
+
+.albums
+ {
+    text-align: center;
+    margin:2rem 0 4rem 0;
+}
+
+.btn {
+    letter-spacing: 1px;
+}
+
+.albums a,
+.digital a {
+    
+    padding: 0.475rem .75rem;
+    font-size: 30px;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
+}
+
+.albumsimages img {
+    width:140px;
+    height:auto;
+    padding:10px;
+    margin-top: 2rem;
+    border-radius: 50%;
+}
+
+.albums img:hover {
+    cursor:pointer;
+    text-decoration: none;
+     transform: scale(1.1); 
+    transition: 0.3s;
+  
+}
+
+/*--------------------------------*/
+/*SOCIAL MEDIA*/
+/*--------------------------------*/
+
+.socialimages {
+    width:100%;
+    margin:3rem auto;
+    
+    display:flex;
+    justify-content: center;
+
+    
+    
+    
+}
+
+.icon {
+    display:flex;
+    flex-direction: vertical;
+    justify-content: center;
+    align-items:center;
+}
+
+.icon p {
+    color:rgba(255, 255, 255, 0.568);
+    
+    
+}
+
+.icon p:hover {
+    transform: scale(1.1);
+    transition:0.3s;
+}
+
+.icon a {
+    text-decoration: none;
+}
+.fa-facebook,
+.fa-instagram,
+.fa-youtube
+ {
+     padding:0 1rem;
+    font-size: 80px;
+    
+}
+
+
+
+.fa-youtube {
+    color:rgb(255, 0, 0);
+}
+
+.fa-instagram {
+    color:rgb(248, 205, 101);
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    color:rgb(255, 254, 254);
+}
+
+
+
+/*--------------------------------*/
+/*DIGITAL*/
+/*--------------------------------*/
+
+.digital {
+    height:15rem;
+    text-align: center;
+    margin:2rem 0 6rem 0;
+}
+
+.dropdown button {
+    font-size: 30px;
+}
+
+.dropdown-item {
+    letter-spacing: 1px;
+    
+}
+.fab {
+    margin-right: 10px;
+}
+
+.fa-spotify {
+    padding:3px;
+    color:rgb(30, 215, 96);
+    
+}
+
+.fa-itunes {
+    padding:3px;
+    color:rgb(63, 190, 255);
+}
+
+.fa-amazon {
+    padding:3px;
+    color:black;
+}
+
+
+
+.dropdown-menu {
+    min-width:15.5rem;
+    
+}
+
+.dropdown-menu a:hover {
+    background-color: rgba(85, 85, 85, 0.514);
+}
+
+
+.fullwebsite  {
+    text-align: center;
+    padding:1rem;
+}
+.fullwebsite a {
+    text-decoration: none;
+}
+
+
+.fullwebsite p {
+    color:white;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.fullwebsite p:hover {
+    color:rgb(0, 121, 251);
+    transform: scale(1.1);
+    transition:0.3s;
+}
+
